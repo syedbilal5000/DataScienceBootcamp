@@ -1,3 +1,3 @@
 # DataScienceBootcamp
-## at NED University
-### by Miss Murk Marvi
+# at NED University
+# by Miss Murk Marvi
