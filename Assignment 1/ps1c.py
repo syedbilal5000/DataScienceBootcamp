@@ -5,7 +5,6 @@ Created on Sat Oct 21 21:00:41 2017
 @author: Syed Bilal Hussain
 """
 
-import sys
 starting_salary=float(input("Enter the starting salary: "))
 total_cost=float(1000000)
 semi_annual_raise=float(0.07)
@@ -19,9 +18,6 @@ guess=(mx-mn)/2
 r=0.04
 steps=0
 x=0
-#if starting_salary <= 10000:
-#    print('It is not possible to pay the down payment in three years.')
-#    sys.exit()
 while abs(current_savings-portion_down_payment)>=error and starting_salary > 10000:
     guess=(mx+mn)/2
     savingsrate=guess/10000
